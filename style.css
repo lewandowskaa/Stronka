@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    font-family: 'Abeezee', sans-serif;
+    font-family:  'Abeezee',sans-serif;
     background-image: url("img/papier.png");
     background-repeat: repeat;
     background-attachment: fixed;
@@ -49,34 +49,33 @@ header.mhead {
 	text-align: center;
     color: #ffffff;
 	background-image: url("img/computer.jpg");
-	opacity: .70;
+	
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 50% 50%;
 	background-size: cover;
-	height:92vh;
+    height:92vh;
+    border:solid;
 	
 }
-header.mhead .intro-text {
-    padding-top: 170px;
-    padding-bottom: 100px;
+header.mhead .intro-text {    
+    align-content: center;
+    margin-top:25vh;
+    margin-bottom:20vh;
+    /*padding-top:15vh;*/          
 }
-
 header.mhead .intro-text .intro-lead-in {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 40px;
     font-style: italic;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
+    margin-top:50px;
+    border:solid 3px;
+   background-color:rgba(0, 0, 0, 0.658);
+   padding:20px;
 }
-
-header.mhead .intro-text .intro-heading {
-    font-size: 25px;
-    font-style: italic;
-    line-height: 22px;
-    margin-bottom: 25px;
-}
-
+/*
 @media (min-width: 768px) {
     header.mhead .intro-text {
         padding-top: 125px;
@@ -116,7 +115,7 @@ header.mhead .intro-text .intro-heading {
         margin-bottom: 50px;
     }
 }
-
+*/
 section#omnie .section-heading ,
 section#umiejetnosci .section-heading ,
 section#portfolio .section-heading ,
@@ -192,6 +191,7 @@ section#kontakt .section-heading
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+   
  }
 
 /* Formularz kontaktowy */
@@ -239,7 +239,7 @@ section#kontakt :-ms-input-placeholder {
 }
 #clearButton,
 #sendMessageButton{
-    width: 50px;
+    width: 20vw;
 }
       
 /* Footer */
