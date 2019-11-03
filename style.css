@@ -10,7 +10,6 @@ body {
 h3 {
     padding-top: 10px;
 }
-
 #omnie .container,
 #umiejetnosci .container,
 #portfolio .container,
@@ -44,11 +43,7 @@ nav a:hover{
     /*border:dotted;*/
     width:70vw;    
 }
-/*
-.bg-own {
-    background-color: #663c04d8;
-}
-*/
+
 /*----------------------------------------------------*/
 /* Header */
 header.mhead {
@@ -67,8 +62,7 @@ header.mhead {
 header.mhead .intro-text {    
     align-content: center;
     margin-top:25vh;
-    margin-bottom:20vh;
-    /*padding-top:15vh;*/          
+    margin-bottom:20vh;    
 }
 header.mhead .intro-text .intro-lead-in {
     font-size: 45px;
@@ -134,12 +128,11 @@ section#kontakt .section-heading
 /*----------------------------------------------*/
 /* O mnie */
 .avatar img {
-    width: 270px;
+    width: 260px;
     height: 350px;
     border: 5px solid #cec5b7;
     display: block;		
 }
-
 .avatar{
 	padding:50px,30px;
 }
@@ -149,7 +142,6 @@ section#kontakt .section-heading
     margin:20px;
     border-style: dotted dashed solid double;
 }
-
 .bold {
     font-weight: 850;
     color: #5c2c00;
@@ -245,9 +237,6 @@ section#kontakt :-ms-input-placeholder {
 #sendMessageButton{
     width: 20vw;
 }
-/*#kontakt .container{
-    background-color: rgba(136, 91, 7, 0.651);  
-}*/
 /* Footer */
 
 #footer .container{
