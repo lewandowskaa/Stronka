@@ -5,7 +5,7 @@ body {
     background-color: #f0d292;
     background-repeat: repeat;
     background-attachment: fixed;
-    color: rgba(85, 42, 0, 0.979);   
+    color: rgba(250, 231, 212, 0.979);   
 }
 h3 {
     padding-top: 10px;
@@ -56,8 +56,7 @@ header.mhead {
     background-position: 50% 50%;
 	background-size: cover;
     height:92vh;
-    border:solid;
-	
+    border:solid;	
 }
 header.mhead .intro-text {    
     align-content: center;
@@ -144,7 +143,7 @@ section#kontakt .section-heading
 }
 .bold {
     font-weight: 850;
-    color: #5c2c00;
+    color: rgba(250, 231, 212, 0.979);  
 }
 /*------------------------------------------*/
 /* Umiejetnosci */
