@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Anita Lewandowska | Portfolio</title>
@@ -58,6 +58,11 @@
                             <a href="#kontakt" class="nav-link">Contact</a>
                         </li>
                     </ul>
+                    <!--[if gte IE 8]>
+                    <style>
+                         footer {background-color:brown;}
+                    </style>
+                    <![endif]-->
                 </div>
             </div>
         </nav>
@@ -75,13 +80,13 @@
                     <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="personal">
                             <span class="bold">Anita Lewandowska</br>
-                            <span class="bold">Programista: Fullstack</span></br>
-                            <span class="bold">Kontakt:</span> 777 555 777</br>
+                            <span class="bold">Programmer: Fullstack</span></br>
+                            <span class="bold">Contact:</span> 777 555 777</br>
                             <span class="bold">E-mail:</span> malina@gmail.com</br>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="wiecej"> Uczę się tworzyć responsywne strony internetowe dostosowane do urządzeń przenośnych (laptop, telefon, tablet). Głównie korzystam z technologii HTML5, CSS oraz Bootstrap.
+                        <div class="wiecej"> I am learning to create responsive websites adapted to mobile devices (laptop, phone, tablet). I mainly use HTML5, CSS and Bootstrap technologies.
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4">
@@ -153,35 +158,29 @@
                         <h2 class="section-heading text-uppercase">Portfolio</h2><br>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 text-center ">
-                        <div class="one-portfolio pt-3">
-                            <div class="h-100 w-100 text-left p-3"> 
-                            </div>
+                <div class="row ">
+                    <div class="col-md-4 text-center">
+                        <div class="one-portfolio">
                             <div class="fotka">
                                   <img src="img/translator.jpg" alt="translator">
                             </div>
-                                <h4>Projekt translator</h4>                    
+                                <h4>Translator</h4>              
                         </div><br><br>
                     </div>
                     <div class="col-md-4 text-center ">
-                        <div class="one-portfolio pt-3">
-                            <div class="h-100 w-100 text-left p-3"> 
-                            </div>
+                        <div class="one-portfolio">
                             <div class="fotka">
                                   <img src="img/bankomat.jpg" alt="bankomat">
                             </div>
-                                <h4>Projekt bankomat</h4>                    
+                                <h4>ATM Project</h4>                    
                         </div><br><br>
                     </div>
                     <div class="col-md-4 text-center ">
-                        <div class="one-portfolio pt-3">
-                            <div class="h-100 w-100 text-left p-3"> 
-                            </div>
+                        <div class="one-portfolio ">                
                             <div class="fotka">
                                   <img src="img/e-dziennik.jpg" alt="e-dziennik">
                             </div>
-                                <h4>Projekt e-dziennik</h4>                    
+                                <h4>Electronic journals</h4>                    
                         </div><br><br>
                     </div>
                 </div>
@@ -240,11 +239,11 @@
         </section>
      
         <!-- Footer -->
-        <footer>
+        <section class="page-section" id="footer">
             <div class="container py-2">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" width="40" height="40" alt="Facebook"></a>
+                        <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" width="30" height="30" alt="Facebook"></a>
                     </div>
                         <br><br>
                     <div class="col-sm-12  mb-2 text-center">
@@ -252,7 +251,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
